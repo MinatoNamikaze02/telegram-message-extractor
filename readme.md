@@ -13,7 +13,7 @@
 * Enter the limit (number of messages to download)
 ## Output
 * Output is printed as well as stored in a JSON file
-* It is stored as a dict ({'user_id': ID', 'message': MESSAGE})
+* It is stored as a dict `({'user_id': ID', 'message': MESSAGE})`
 ## Side Notes
 * You will be asked to login for the first session.
 * You would have to enter your phone number in an international format like `+91XXXXXXXXXX`.
