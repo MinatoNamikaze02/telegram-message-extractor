@@ -7,8 +7,8 @@
 * check the env.example file in the task1 directory and follow the same format to create the actual env file. Once done, you can run the code.
 * Note: The env file needs the api_id and api_hash which can be obtained by creating a developer account on telegram.
 ## Process
-* Enter the link of a channel or its ID. The link is available on the description (mostly). The ID can be obtained from the url while     
-  using telegram desktop.
+* Enter the link of a channel or its ID. The link is available on the description (mostly). The ID can be obtained from the url while using
+  telegram desktop.
 * Make sure the channel isn't private.
 * Enter the limit (number of messages to download)
 ## Output
