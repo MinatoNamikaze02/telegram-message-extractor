@@ -3,10 +3,9 @@ from dotenv import load_dotenv
 import json
 from telethon import TelegramClient
 from telethon.errors import SessionPasswordNeededError, ChannelPrivateError
-from telethon.tl.functions.messages import (GetHistoryRequest)
-from telethon.tl.types import (
-    PeerChannel
-)
+from telethon.tl.functions.messages import GetHistoryRequest
+from telethon.tl.types import PeerChannel
+
 
 
 load_dotenv()
@@ -24,7 +23,7 @@ async def extract_messages(phone):
     if await client.is_user_authorized() == False:
         await client.send_code_request(phone)
         try:
-            await client.sign_in(phone, input('Enter the code: '))
+            await client.sign_in(phone, input('Enter the code sent to you in Telegram: '))
         except SessionPasswordNeededError:
             await client.sign_in(password=input('Password: '))
 
