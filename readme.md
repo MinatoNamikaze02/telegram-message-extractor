@@ -18,4 +18,4 @@
 * You will be asked to login for the first session.
 * You would have to enter your phone number in an international format like `+91XXXXXXXXXX`.
 * Followed by this, you'd have to enter a code that was sent to you through telegram.
-* You're good to go now. If any queries, feel free to contact me!
+* You're good to go now. If any queries, feel free to open an issue!
