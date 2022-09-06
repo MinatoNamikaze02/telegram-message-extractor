@@ -1,8 +1,6 @@
 # Telegram chat history exporter
 * A simple python script using the telethon library to extract message history of the specified telegram channel
-## Requirements
-* Telethon 1.24.0
-* dotenv
+
 ## Environment variables
 * check the env.example file and follow the same format to create the actual env file. Once done, you can run the code.
 * Note: The env file needs the api_id and api_hash which can be obtained by creating a developer account on telegram.
